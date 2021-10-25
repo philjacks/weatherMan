@@ -34,7 +34,7 @@ window.navigator.geolocation.getCurrentPosition(
       // GET & SET DATE
       const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
       const todayDate = new Date();
-      const day = todayDate.getDay();
+      const day = todayDate.getDay() - 1;
       const date = todayDate.getDate();
 
       // SET CORRECT LETTERS FOR DATE
